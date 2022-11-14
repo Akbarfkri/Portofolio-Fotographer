@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+nav ul li {
+    display: inline; 
+}
+
+
+
+
+aside {
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+aside a {
+    padding: 10px;
+}
+
+
+main {
+    width: 93%
+    background-color: bisque;
+    margin: 0 auto;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: row;
+}
+
+
+
+@media screen and (min-width: 900px) {
+aside {
+    width: 1200px;
+    margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    aside {
+        width: 93%;
+        margin: 0 auto;
+    }
+}
+
